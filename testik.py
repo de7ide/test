@@ -1,4 +1,4 @@
-def do_some(num, word):
+def do_some(num: int, word: str) -> str:
     word = word.capitalize()
     print( word * num)
 
