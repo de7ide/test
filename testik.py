@@ -1,3 +1,5 @@
-print("OU my GOD!!!")
+def do_some(num, word):
+    word = word.capitalize()
+    print( word * num)
 
-print("Fuck")
+do_some(3, 'fuck')
